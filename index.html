@@ -1,14 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Master de CSS en 1 hora</title>
-</head>
-<body>
-  <h1>Master de CSS</h1>
-  <p>Este curso es de css.</p>
-  <p>Este parrafo va a contener una clase.</p>
-  <p>Este parrafo va a contener un id</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Master de CSS en 1 hora</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="menu">
+      <div class="container">
+        <nav>
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+          <a href="#">Link 4</a>
+          <a href="#">Link 5</a>
+        </nav>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <h1>Master de CSS</h1>
+        <p>Este curso es de css.</p>
+        <p>Este parrafo va a contener una clase.</p>
+        <p>Este parrafo va a contener un id</p>
+      </div>
+    </section>
+
+    <section id="cards">
+      <div class="container">
+        <div class="flex">
+          <div>
+            <div class="detalles">
+              <ul>
+                <li>1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+              </ul>
+            </div>
+            <div class="detalles">
+              <ul>
+                <li>2</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+              </ul>
+            </div>
+          </div>
+          <div class="detalles">
+            <ul>
+              <li>3</li>
+              <li>Item 2</li>
+              <li>Item 3</li>
+              <li>Item 4</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
