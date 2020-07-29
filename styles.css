@@ -1,0 +1,13 @@
+/* Selector de etiqueta */
+body{
+  background-color: #121212;
+}
+p{
+  font-size: 12pt;
+  font-weight: 300;
+  color: #fff;
+}
+
+/* Selector de clase */
+
+/* Selector de id */
